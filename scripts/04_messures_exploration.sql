@@ -1,5 +1,5 @@
 -- Find the Total Sales
-SELECT SUM(sales_amount) AS total_sales FROM gold2.fact_sales;
+SELECT SUM(sales) AS total_sales FROM gold2.fact_sales;
 
 -- Find how many items are sold
 SELECT SUM(quantity) AS total_quantity FROM gold2.fact_sales;
@@ -21,7 +21,7 @@ SELECT COUNT(customer_key) AS total_customers FROM gold2.dim_customers;
 SELECT COUNT(DISTINCT customer_key) AS total_customers FROM gold2.fact_sales;
 
 -- Generate a Report that shows all key metrics of the business
-SELECT 'Total Sales' AS measure_name, SUM(sales_amount) AS measure_value FROM gold2.fact_sales
+SELECT 'Total Sales' AS measure_name, SUM(sales) AS measure_value FROM gold2.fact_sales
 UNION ALL
 SELECT 'Total Quantity', SUM(quantity) FROM gold2.fact_sales
 UNION ALL
