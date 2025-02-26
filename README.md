@@ -1,7 +1,7 @@
 # sql_data_analytics_project
 
 A comprehensive collection of SQL scripts for data exploration, analytics, and reporting. These scripts cover various analyses such as database exploration, measures and metrics, time-based trends, cumulative analytics, segmentation, and more. This repository contains SQL queries designed to be used for practicing and improving skills as a Data Analyst or BI professional by exploring, segmenting, and analyzing data within a relational database.Each script focuses on a specific analytical theme and demonstrates best practices for SQL queries.
-The datasets used in this project come from the SQL Data Warehouse Project: [GitHub]https://github.com/giselaccampagno/sql_data_warehouse_project, and it is a continuation of that work.
+The datasets used in this project come from the SQL Data Warehouse Project: https://github.com/giselaccampagno/sql_data_warehouse_project, and it is a continuation of that work.
 
 ## 🛡️ License
 
